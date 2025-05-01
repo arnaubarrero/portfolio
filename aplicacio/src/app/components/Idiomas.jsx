@@ -105,27 +105,27 @@ const Lenguajes = () => {
 
     return (
         <div className="mx-auto pb-8">
-            <h2 className="text-4xl w-[90%] m-auto font-bold mb-8 border-b-2 border-black pb-2">
+            <h2 className="text-4xl text-gray-900 w-[90%] m-auto font-bold mb-8 border-b-2 border-black pb-2">
                 <Globe className="inline-block mr-2" size={40} color="#000" />{' '}
                 {texts.title}
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-[90%] m-auto">
                 <div className="p-4 shadow">
-                    <h3 className="text-2xl font-semibold">{texts.catalan.label}</h3>
-                    <p className="text-md">{texts.catalan.level}</p>
+                    <h3 className="text-2xl text-gray-900 font-semibold">{texts.catalan.label}</h3>
+                    <p className="text-md text-gray-900">{texts.catalan.level}</p>
                     {renderStars(5)}
                 </div>
 
                 <div className="p-4 shadow">
-                    <h3 className="text-2xl font-semibold">{texts.spanish.label}</h3>
-                    <p className="text-md">{texts.spanish.level}</p>
+                    <h3 className="text-2xl font-semibold text-gray-900">{texts.spanish.label}</h3>
+                    <p className="text-md text-gray-900">{texts.spanish.level}</p>
                     {renderStars(5)}
                 </div>
 
                 <div className="p-4 shadow">
-                    <h3 className="text-2xl font-semibold">{texts.english.label}</h3>
-                    <p className="text-md">{texts.english.level}</p>
+                    <h3 className="text-2xl font-semibold text-gray-900">{texts.english.label}</h3>
+                    <p className="text-md text-gray-900">{texts.english.level}</p>
                     {renderStars(3)}
                 </div>
             </div>

@@ -90,7 +90,7 @@ const Lenguajes = () => {
 
     return (
             <div className="mx-auto">
-                <h2 className="text-4xl font-bold mb-12 border-b-2 border-black pb-2">
+                <h2 className="text-4xl text-gray-900 font-bold mb-12 border-b-2 border-black pb-2">
                     <Code2 className="inline-block mr-2" size={30} color="#000" />{' '}
                     {texts.title}
                 </h2>
@@ -105,7 +105,7 @@ const Lenguajes = () => {
                         </h3>
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                             {frontendItems.map((item, index) => (
-                                <div key={index} className="flex items-center space-x-3 rounded-full px-3 py-1 border border-blue-500 hover:bg-blue-200 text-black transition-all duration-300 cursor-pointer">
+                                <div key={index} className="flex items-center space-x-3 rounded-full px-3 py-1 hover:bg-blue-200 text-black transition-all duration-300 cursor-pointer">
                                     <div className="flex-shrink-0">{item.icon}</div>
                                     <span className="text-black font-medium">{item.name}</span>
                                 </div>
@@ -122,7 +122,7 @@ const Lenguajes = () => {
                         </h3>
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                             {backendItems.map((item, index) => (
-                                <div key={index} className="flex items-center space-x-3 rounded-full px-3 py-1 border border-blue-500 hover:bg-blue-200 text-black transition-all duration-300 cursor-pointer">
+                                <div key={index} className="flex items-center space-x-3 rounded-full px-3 py-1 hover:bg-blue-200 text-black transition-all duration-300 cursor-pointer">
                                     <div className="flex-shrink-0">{item.icon}</div>
                                     <span className="text-black font-medium">{item.name}</span>
                                 </div>
@@ -139,7 +139,7 @@ const Lenguajes = () => {
                         </h3>
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                             {esteticaItems.map((item, index) => (
-                                <div key={index} className="flex items-center space-x-3 rounded-full px-3 py-1 border border-blue-500 hover:bg-blue-200 text-black transition-all duration-300 cursor-pointer">
+                                <div key={index} className="flex items-center space-x-3 rounded-full px-3 py-1 hover:bg-blue-200 text-black transition-all duration-300 cursor-pointer">
                                     <div className="flex-shrink-0">{item.icon}</div>
                                     <span className="text-black font-medium">{item.name}</span>
                                 </div>
@@ -156,7 +156,7 @@ const Lenguajes = () => {
                         </h3>
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                             {databaseItems.map((item, index) => (
-                                <div key={index} className="flex items-center space-x-3 rounded-full px-3 py-1 border border-blue-500 hover:bg-blue-200 text-black transition-all duration-300 cursor-pointer">
+                                <div key={index} className="flex items-center space-x-3 rounded-full px-3 py-1 hover:bg-blue-200 text-black transition-all duration-300 cursor-pointer">
                                     <div className="flex-shrink-0">{item.icon}</div>
                                     <span className="text-black font-medium">{item.name}</span>
                                 </div>
@@ -174,7 +174,7 @@ const Lenguajes = () => {
                     </h3>
                     <div className="grid grid-cols-2 sm:grid-cols-6 gap-4">
                         {otherItems.map((item, index) => (
-                            <div key={index} className="flex items-center space-x-3 rounded-full px-3 py-1 border border-blue-500 hover:bg-blue-200 text-black transition-all duration-300 cursor-pointer">
+                            <div key={index} className="flex items-center space-x-3 rounded-full px-3 py-1 hover:bg-blue-200 text-black transition-all duration-300 cursor-pointer">
                                 <div className="flex-shrink-0">{item.icon}</div>
                                 <span className="text-black font-medium">{item.name}</span>
                             </div>
