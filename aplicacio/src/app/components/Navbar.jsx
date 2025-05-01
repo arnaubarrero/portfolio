@@ -51,10 +51,10 @@ const Navbar = () => {
                 break;
             default:
                 setTranslations({
-                    lenguajes: { text: 'Lenguajes', key: 'section-lenguajes' },
-                    idiomas: { text: 'Idiomas', key: 'section-idiomas' },
-                    estudios: { text: 'Estudios', key: 'section-estudios' },
-                    experiencia: { text: 'Experiencia', key: 'section-experiencia' }
+                    lenguajes:      { text: 'Lenguajes',    key: 'section-lenguajes' },
+                    idiomas:        { text: 'Idiomas',      key: 'section-idiomas' },
+                    estudios:       { text: 'Estudios',     key: 'section-estudios' },
+                    experiencia:    { text: 'Experiencia',  key: 'section-experiencia' }
                 });
         }
     };
@@ -97,9 +97,9 @@ const Navbar = () => {
     ];
 
     const languageOptions = [
-        { code: 'castellano', name: 'Español' },
-        { code: 'catalan', name: 'Català' },
-        { code: 'ingles', name: 'English' }
+        { code: 'castellano',   name: 'Español' },
+        { code: 'catalan',      name: 'Català'  },
+        { code: 'ingles',       name: 'English' }
     ];
 
     const handleLanguageChange = (newLanguage) => {
@@ -114,7 +114,7 @@ const Navbar = () => {
                 <div className="flex justify-between h-16 items-center">
                     <div className="flex-shrink-0">
                         <span>
-                            Last modification: 04/2025
+                            | | |
                         </span>
                     </div>
 

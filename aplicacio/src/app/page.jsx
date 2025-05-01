@@ -6,7 +6,7 @@ import Estudios from './components/Estudios';
 import Lenguajes from './components/Lenguajes';
 import Proyectos from './components/Proyectos';
 import Experiencia from './components/Experiencia';
-import { MapPin,Mail } from 'lucide-react';
+import { MapPin, Mail } from 'lucide-react';
 
 function App() {
   return (
@@ -20,10 +20,16 @@ function App() {
             <MapPin size={24} />
             Esplugas de Llobregat, Barcelona
           </p>
-          <p className="mt-4 text-gray-600 flex gap-2">
+          <a 
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=arnau.baso@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer" 
+            className="mt-4 text-gray-600 flex gap-2 transition-[2s] hover:underline cursor-pointer"
+          >
             <Mail size={24} />
             arnau.baso@gmail.com
-          </p>
+          </a>
+
         </div>
       </div>
 
