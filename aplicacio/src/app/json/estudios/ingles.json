@@ -1,0 +1,16 @@
+{
+    "titulo": "Academic Background",
+    "cursosDestacados": "Highlighted Courses",
+    "estudios": [
+        {
+            "titulo": "Web Application Development (Advanced Vocational Training)",
+            "institucion": "IES Pedralbes",
+            "fecha": "2023 - 2025"
+        },
+        {
+            "titulo": "Microcomputer Systems and Networks (Vocational Training)",
+            "institucion": "IES Esteve Terradas i Illa",
+            "fecha": "2021 - 2023"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "title": "Language Proficiency",
+    "languages": [
+        {
+            "name": "Spanish",
+            "level": "Native",
+            "description": "Complete mastery of the language with full fluency in all contexts.",
+            "stars": 5
+        },
+        {
+            "name": "Catalan",
+            "level": "Native",
+            "description": "Mother tongue with complete mastery in both oral and written communication.",
+            "stars": 5
+        },
+        {
+            "name": "English",
+            "level": "Advanced",
+            "description": "Professional working proficiency in both written and spoken contexts.",
+            "stars": 4
+        }
+    ]
+}

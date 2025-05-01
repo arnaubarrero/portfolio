@@ -1,0 +1,16 @@
+{
+    "titulo": "Formació Acadèmica",
+    "cursosDestacados": "Cursos destacats",
+    "estudios": [
+        {
+            "titulo": "Desenvolupament d'Aplicacions Web (Formació Professional de Grau Superior)",
+            "institucion": "IES Pedralbes",
+            "fecha": "2023 - 2025"
+        },
+        {
+            "titulo": "Sistemes microinformàtics i xarxes (Formació Professional)",
+            "institucion": "IES Esteve Terradas i Illa",
+            "fecha": "2021 - 2023"
+        }
+    ]
+}

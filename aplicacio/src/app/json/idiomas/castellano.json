@@ -1,0 +1,23 @@
+{
+    "titulo": "Dominio de Idiomas",
+    "idiomas": [
+        {
+            "name": "Español",
+            "level": "Nativo",
+            "description": "Dominio completo del idioma con fluidez total en todos los contextos.",
+            "stars": 5
+        },
+        {
+            "name": "Català",
+            "level": "Natiu",
+            "description": "Llengua materna amb domini complet tant en comunicació oral com escrita.",
+            "stars": 5
+        },
+        {
+            "name": "English",
+            "level": "Avanzado",
+            "description": "Competencia profesional tanto en comunicación escrita como oral.",
+            "stars": 4
+        }
+    ]
+}
