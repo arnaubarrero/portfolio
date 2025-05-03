@@ -135,7 +135,7 @@ const Navbar = () => {
                                 {showLanguageDropdown && (
                                     <div className="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg py-1 z-50">
                                         {languageOptions.map((option) => (
-                                            <button key={option.code} onClick={() => handleLanguageChange(option.code)} className={`block px-4 py-2 text-sm w-full text-left ${language === option.code ? 'bg-gray-100' : 'hover:bg-gray-50'}`} >
+                                            <button key={option.code} onClick={() => handleLanguageChange(option.code)} className={`block px-4 py-2 text-black text-sm w-full text-left ${language === option.code ? 'bg-gray-100' : 'hover:bg-gray-50'}`} >
                                                 {option.name}
                                             </button>
                                         ))}
