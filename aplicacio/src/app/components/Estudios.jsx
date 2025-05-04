@@ -38,7 +38,7 @@ const Estudios = () => {
     }
 
     return (
-        <section className="w-full px-6 py-12 max-w-5xl mx-auto">
+        <section className="w-[90%] py-12 mx-auto">
             <header className="mb-10">
                 <h2 className="text-4xl border-b-[2px] font-extrabold text-gray-900 flex items-center gap-3 border-">
                     <School className="text-primary" size={32} />
@@ -54,7 +54,7 @@ const Estudios = () => {
                     >
                         <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
                             <h3 className="text-xl font-semibold text-gray-800">{estudio.titulo}</h3>
-                            <span className="mt-2 md:mt-0 text-sm bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full">
+                            <span className="mt-2 m-auto md:mt-0 text-sm bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full">
                                 {estudio.fecha}
                             </span>
                         </div>
