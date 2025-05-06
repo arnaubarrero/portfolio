@@ -66,7 +66,8 @@ const Lenguajes = () => {
         { name: 'Solidity', icon: <img width="30" height="30" src="/solidity.png"   alt="solidity"              /> },
         { name: 'PHP',      icon: <img width="30" height="30" src="/php.png"        alt="php"                   /> },
         { name: 'Java',     icon: <img width="30" height="30" src="/java.png"       alt="java-coffee-cup-logo"  /> },
-        { name: 'Node.js',  icon: <img width="30" height="30" src="node-js.png"     alt="node-js"               /> }
+        { name: 'Node.js',  icon: <img width="30" height="30" src="node-js.png"     alt="node-js"               /> },
+        { name: 'Python',   icon: <img width="30" height="30" src="/python.png"     alt='python'                /> }
     ];
 
     const esteticaItems = [
