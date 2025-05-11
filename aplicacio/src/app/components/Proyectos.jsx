@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { Github, X, FolderKanban  } from 'lucide-react';
+import { Github, X, FolderKanban } from 'lucide-react';
 
 const Proyectos = () => {
     const [language, setLanguage] = useState('castellano');
@@ -64,12 +64,14 @@ const Proyectos = () => {
                                 {proyecto.descripcion}
                             </p>
                             <div className='flex items-center gap-4'>
-                                <button
-                                    onClick={() => handleProjectClick(proyecto)}
-                                    className="px-4 py-1 cursor-pointer mt-2 text-yellow-500 border border-yellow-500 hover:bg-yellow-500 hover:text-white transition duration-200"
-                                >
-                                    {proyecto.boton}
-                                </button>
+                                {proyecto.video && proyecto.video.includes('<iframe') && (
+                                    <button
+                                        onClick={() => handleProjectClick(proyecto)}
+                                        className="px-4 py-1 cursor-pointer mt-2 text-yellow-500 border border-yellow-500 hover:bg-yellow-500 hover:text-white transition duration-200"
+                                    >
+                                        {proyecto.boton}
+                                    </button>
+                                )}
                                 <a
                                     href={proyecto.github}
                                     target="_blank"
