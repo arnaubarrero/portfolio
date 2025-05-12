@@ -3,6 +3,11 @@
     "cursosDestacados": "Highlighted Courses",
     "estudios": [
         {
+            "titulo": "Computer Engineering",
+            "institucion": "UOC (Open University of Catalunya)",
+            "fecha": "In Process"
+        },
+        {
             "titulo": "Web Application Development (Advanced Vocational Training)",
             "institucion": "IES Pedralbes",
             "fecha": "2023 - 2025"

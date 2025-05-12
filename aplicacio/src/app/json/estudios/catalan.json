@@ -3,6 +3,11 @@
     "cursosDestacados": "Cursos destacats",
     "estudios": [
         {
+            "titulo": "Enginyeria Informàtica",
+            "institucion": "UOC (Universitat Oberta de Catalunya)",
+            "fecha": "En Procès"
+        },
+        {
             "titulo": "Desenvolupament d'Aplicacions Web (Formació Professional de Grau Superior)",
             "institucion": "IES Pedralbes",
             "fecha": "2023 - 2025"

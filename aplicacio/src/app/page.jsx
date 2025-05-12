@@ -29,7 +29,6 @@ function App() {
             <Mail size={24} />
             arnau.baso@gmail.com
           </a>
-
         </div>
       </div>
 

@@ -54,9 +54,16 @@ const Estudios = () => {
                     >
                         <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
                             <h3 className="text-xl font-semibold text-gray-800">{estudio.titulo}</h3>
-                            <span className="mt-2 m-auto md:mt-0 text-sm bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full">
+                            <span
+                                className={`mt-2 md:mt-0 text-sm px-3 py-1 rounded-full self-end md:self-auto md:ml-auto
+        ${["En Proceso", "En Procès", "In Process"].includes(estudio.fecha)
+                                        ? "bg-orange-100 text-orange-700"
+                                        : "bg-emerald-100 text-emerald-700"
+                                    }`}
+                            >
                                 {estudio.fecha}
                             </span>
+
                         </div>
                         <p className="text-gray-600 text-md">{estudio.institucion}</p>
                     </article>
