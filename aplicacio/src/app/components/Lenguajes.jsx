@@ -83,9 +83,9 @@ const Lenguajes = () => {
     const otherItems = [
         { name: 'Github',   icon: <img width="30" height="30" src="/github.png" alt="github"    /> },
         { name: 'Figma',    icon: <img width="30" height="30" src="/figma.png"  alt="figma--v1" /> },
-        { name: 'nginx',    icon: <img width="30" height="30" src="/nginx.png"  alt="nginx"     /> },
-        { name: 'apache',   icon: <img width="30" height="30" src="/apache.png" alt="apache"    /> },
-        { name: 'docker',   icon: <img width="30" height="30" src="/docker.png" alt="docker"    /> },
+        { name: 'Nginx',    icon: <img width="30" height="30" src="/nginx.png"  alt="nginx"     /> },
+        { name: 'Apache',   icon: <img width="30" height="30" src="/apache.png" alt="apache"    /> },
+        { name: 'Docker',   icon: <img width="30" height="30" src="/docker.png" alt="docker"    /> },
         { name: 'UX/UI',    icon: <img width="30" height="30" src="/ux-ui.png"  alt="ux-ui"     /> },
     ];
 
