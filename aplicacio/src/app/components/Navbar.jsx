@@ -10,7 +10,8 @@ const Navbar = () => {
         lenguajes: { text: 'Lenguajes', key: 'section-lenguajes' },
         idiomas: { text: 'Idiomas', key: 'section-idiomas' },
         estudios: { text: 'Estudios', key: 'section-estudios' },
-        experiencia: { text: 'Experiencia', key: 'section-experiencia' }
+        experiencia: { text: 'Experiencia', key: 'section-experiencia' },
+        proyectos: { text: 'Proyectos', key: 'section-proyectos' }
     });
 
     useEffect(() => {
@@ -35,26 +36,29 @@ const Navbar = () => {
         switch (lang) {
             case 'catalan':
                 setTranslations({
-                    lenguajes: { text: 'Llenguatges', key: 'section-lenguatges' },
-                    idiomas: { text: 'Idiomes', key: 'section-idiomes' },
-                    estudios: { text: 'Estudis', key: 'section-estudis' },
-                    experiencia: { text: 'Experiència', key: 'section-experiencia' }
+                    lenguajes:      { text: 'Llenguatges',  key: 'section-lenguatges'   },
+                    idiomas:        { text: 'Idiomes',      key: 'section-idiomes'      },
+                    estudios:       { text: 'Estudis',      key: 'section-estudis'      },
+                    experiencia:    { text: 'Experiència',  key: 'section-experiencia'  },
+                    proyectos:      { text: 'Projectes',    key: 'section-proyectos'    }
                 });
                 break;
             case 'ingles':
                 setTranslations({
-                    lenguajes: { text: 'Tech Stack', key: 'section-techstack' },
-                    idiomas: { text: 'Languages', key: 'section-languages' },
-                    estudios: { text: 'Education', key: 'section-education' },
-                    experiencia: { text: 'Experience', key: 'section-experience' }
+                    lenguajes:      { text: 'Tech Stack',   key: 'section-techstack' },
+                    idiomas:        { text: 'Languages',    key: 'section-languages' },
+                    estudios:       { text: 'Education',    key: 'section-education' },
+                    experiencia:    { text: 'Experience',   key: 'section-experience'},
+                    proyectos:      { text: 'Projects',     key: 'section-projects'  }
                 });
                 break;
             default:
                 setTranslations({
-                    lenguajes:      { text: 'Lenguajes',    key: 'section-lenguajes' },
-                    idiomas:        { text: 'Idiomas',      key: 'section-idiomas' },
-                    estudios:       { text: 'Estudios',     key: 'section-estudios' },
-                    experiencia:    { text: 'Experiencia',  key: 'section-experiencia' }
+                    lenguajes:      { text: 'Lenguajes',    key: 'section-lenguajes'    },
+                    idiomas:        { text: 'Idiomas',      key: 'section-idiomas'      },
+                    estudios:       { text: 'Estudios',     key: 'section-estudios'     },
+                    experiencia:    { text: 'Experiencia',  key: 'section-experiencia'  },
+                    proyectos:      { text: 'Proyectos',    key: 'section-proyectos'    }
                 });
         }
     };
@@ -97,9 +101,9 @@ const Navbar = () => {
     ];
 
     const languageOptions = [
-        { code: 'castellano',   name: 'Español' },
-        { code: 'catalan',      name: 'Català'  },
-        { code: 'ingles',       name: 'English' }
+        { code: 'castellano', name: 'Español' },
+        { code: 'catalan', name: 'Català' },
+        { code: 'ingles', name: 'English' }
     ];
 
     const handleLanguageChange = (newLanguage) => {
