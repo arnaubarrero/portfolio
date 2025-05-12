@@ -10,18 +10,18 @@
             "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/uC2IDMsk7uA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
         },
         {
-            "titulo": "IA | Predicció",
-            "descripcion": "Sistema d'intel·ligència artificial que prediu el gènere d'una persona a partir de diverses variables. Entrenat amb models d'aprenentatge automàtic i deep learning.\nTecnologies utilitzades: Python, MySQL i Docker.\nAccions destacades: Classificació automàtica del gènere, entrenament i validació amb conjunts de dades reals, interfície de prova per carregar dades.",
-            "enlace": "#",
-            "github": "https://github.com/arnaubarrero/AI"
-        },
-        {
             "titulo": "HolaBarri | Comerç local",
             "descripcion": "Aplicació per a la promoció de comerços locals, en la que els comerços poden publicar els seus productes, i els clients, amb la gestió automàtica de coordenades, veuran els comerços de barri més propers per realitzar compres.\nAccions destacades: Comprar productes, vendre productes, mostrar en un mapa real amb les coordenades del comerç quins són els que tinc més a prop.",
             "boton": "Veure més",
             "enlace": "#",
             "github": "#",
             "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/4oOecPwpfkM' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        },
+        {
+            "titulo": "IA | Predicció",
+            "descripcion": "Sistema d'intel·ligència artificial que prediu el gènere d'una persona a partir de diverses variables. Entrenat amb models d'aprenentatge automàtic i deep learning.\nTecnologies utilitzades: Python, MySQL i Docker.\nAccions destacades: Classificació automàtica del gènere, entrenament i validació amb conjunts de dades reals, interfície de prova per carregar dades.",
+            "enlace": "#",
+            "github": "https://github.com/arnaubarrero/AI"
         },
         {
             "titulo": "AturApp",

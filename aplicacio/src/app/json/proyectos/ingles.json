@@ -10,18 +10,18 @@
             "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/uC2IDMsk7uA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
         },
         {
-            "titulo": "AI | Prediction",
-            "descripcion": "Artificial intelligence system that predicts a person's gender based on various variables. Trained with machine learning and deep learning models.\nTechnologies used: Python, MySQL, and Docker.\nKey features: Automatic gender classification, training and validation with real datasets, test interface for data input.",
-            "enlace": "#",
-            "github": "https://github.com/arnaubarrero/AI"
-        },
-        {
             "titulo": "HolaBarri | Local commerce",
             "descripcion": "Application for the promotion of local businesses, where businesses can publish their products, and customers, with automatic coordinate management, will see the nearest neighborhood businesses to make purchases.\nFeatured actions: Buy products, sell products, display on a real map with the business coordinates which ones are closest to me.",
             "boton": "View more",
             "enlace": "#",
             "github": "#",
             "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/4oOecPwpfkM' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        },
+        {
+            "titulo": "AI | Prediction",
+            "descripcion": "Artificial intelligence system that predicts a person's gender based on various variables. Trained with machine learning and deep learning models.\nTechnologies used: Python, MySQL, and Docker.\nKey features: Automatic gender classification, training and validation with real datasets, test interface for data input.",
+            "enlace": "#",
+            "github": "https://github.com/arnaubarrero/AI"
         },
         {
             "titulo": "AturApp",
