@@ -10,7 +10,7 @@
             "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/uC2IDMsk7uA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
         },
         {
-            "titulo": "IA | Predicción de género",
+            "titulo": "IA | Predicción",
             "descripcion": "Sistema de inteligencia artificial que predice el género de una persona basándose en variables. Entrenado con modelos de aprendizaje automático y deep learning.\nTecnologías utilizadas: Python, MySQL y Docker.\nAcciones destacadas: Clasificación automática del género, entrenamiento y validación con conjuntos de datos reales, interfaz de prueba para carga de datos.",
             "enlace": "#",
             "github": "https://github.com/arnaubarrero/AI"

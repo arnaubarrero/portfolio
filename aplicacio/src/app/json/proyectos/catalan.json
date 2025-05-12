@@ -10,7 +10,7 @@
             "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/uC2IDMsk7uA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
         },
         {
-            "titulo": "IA | Predicció de gènere",
+            "titulo": "IA | Predicció",
             "descripcion": "Sistema d'intel·ligència artificial que prediu el gènere d'una persona a partir de diverses variables. Entrenat amb models d'aprenentatge automàtic i deep learning.\nTecnologies utilitzades: Python, MySQL i Docker.\nAccions destacades: Classificació automàtica del gènere, entrenament i validació amb conjunts de dades reals, interfície de prova per carregar dades.",
             "enlace": "#",
             "github": "https://github.com/arnaubarrero/AI"
